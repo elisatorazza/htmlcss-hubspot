@@ -81,7 +81,7 @@ padding-left: 0px;
 /* banner */
 .third-raw {
   background-color: #FFF2EE;
-  height: 580px;
+  height: 575px;
   background-image: url(../img/jumbotron.png);
   background-repeat: no-repeat;
   background-position: right top;
@@ -109,3 +109,11 @@ padding-left: 0px;
 .third-raw small {
   font-size: 10px;
 }
+/* /banner */
+/* riga azzurra */
+.empty {
+  background-color: #A1E8DF;
+  border-top: 3px solid #33475B;
+  border-bottom: 3px solid #33475B;
+}
+/* /riga azzurra */
