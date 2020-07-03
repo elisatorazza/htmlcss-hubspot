@@ -22,6 +22,9 @@ header {
   background-color: #F4F9FD;
   }
 /* prima riga */
+.border {
+  border-bottom:1px solid #33475B;
+}
 .first-raw {
   height: 100px;
   position: relative;
