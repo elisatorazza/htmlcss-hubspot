@@ -17,6 +17,9 @@
     width: 80%;
     margin: auto;
   }
+  p {
+    line-height: 30px;
+  }
 /* /impostazioni generali */
 i {
   padding: 0px 10px;
@@ -99,7 +102,6 @@ padding-left: 0px;
   font-weight: 900;
 }
 .third-raw p {
-  line-height: 25px;
   padding: 30px 0;
 }
 .third-raw .btn.free {
@@ -117,3 +119,23 @@ padding-left: 0px;
   border-bottom: 3px solid #33475B;
 }
 /* /riga azzurra */
+/* prima sezione */
+.first-section {
+  background-color: ##F5F8FA;
+  height: 1200px;
+}
+/* claim */
+.claim {
+  text-align: center;
+  width: 50%;
+  margin:auto;
+}
+.claim .img-claim {
+  height: 150px;
+  margin: 30px;
+}
+.power {
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+/* /claim */
