@@ -81,5 +81,24 @@ padding-left: 0px;
 /* banner */
 .third-raw {
   background-color: #FFF2EE;
-  height: 200px;
+  height: 580px;
+  background-image: url(../img/jumbotron.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: cover;
+}
+.banner {
+  color: #33475B;
+}
+.width {
+  width: 35%;
+}
+.third-raw h1 {
+  line-height: 35px;
+  padding: 30px 0;
+  font-weight: 900;
+}
+.third-raw p {
+  line-height: 25px;
+  padding: 30px 0;
 }
