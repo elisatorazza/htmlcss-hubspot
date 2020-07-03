@@ -61,11 +61,11 @@ padding-left: 0px;
   color: #33475B;
   text-decoration: none;
 }
-.top > li .btn {
+.btn {
   font-family: 'Lato', sans-serif;
   font-size: 16px;
   border-radius: 10px;
-  padding: 7px;
+  padding: 10px;
 }
 .btn.log {
   background-color: #fff;
@@ -95,10 +95,17 @@ padding-left: 0px;
 }
 .third-raw h1 {
   line-height: 35px;
-  padding: 30px 0;
+  padding-top: 50px;
   font-weight: 900;
 }
 .third-raw p {
   line-height: 25px;
   padding: 30px 0;
+}
+.third-raw .btn.free {
+  padding:20px;
+  margin-bottom: 30px;
+}
+.third-raw small {
+  font-size: 10px;
 }
