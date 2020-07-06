@@ -290,18 +290,11 @@ h4 {
   border-right: none;
 }
 /* groups */
-.groups {
-  position: relative;
-  width: 25%;
-  height: 250px;
-  background-color: green;
+.text {
   text-align: center;
 }
 .contained {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
+  padding: 3% 0;
 }
 .contained h2 {
   font-size: 50px;
@@ -312,7 +305,9 @@ h4 {
 .groups img {
   display: block;
   margin:auto;
-  width: 35%;
+}
+.align {
+  position: relative;
 }
 .plus {
   display: inline-block;
@@ -323,25 +318,16 @@ p.plus {
   top: 50%;
   transform: translateY(-50%);
 }
-.align {
-  position: relative;
-}
+
 /* /groups */
-.visit {
-  width: 25%;
-  height: 250px;
-  background-color: green;
-}
-.academy {
-  width: 25%;
-  height: 250px;
-  background-color: green;
-}
-.attendees {
-  width: 25%;
-  height: 250px;
-  background-color: green;
-}
+
+/* visit */
+
+/* /visit */
+/* academy */
+
+/* /academy */
+
 .marketplace {
   width: 25%;
   height: 250px;
