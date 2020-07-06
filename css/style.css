@@ -185,8 +185,12 @@ padding-left: 0px;
   left: 300px;
   color: #33475B;
 }
-.top i {
+.top i:first-child {
   color: #FF7A59;
+  padding-left: 0px;
+}
+.top li:first-child {
+  padding-left: 0px;
 }
 .shadow {
   box-shadow: 0.5px 0.5px 3px 3px lightgrey;
