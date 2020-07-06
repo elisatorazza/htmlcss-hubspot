@@ -117,6 +117,10 @@ header {
 /* /banner */
 /* riga azzurra */
 .empty {
+  position: absolute;
+  height: 120px;
+  width: 100%;
+  bottom:0;
   background-color: #A1E8DF;
   border-top: 3px solid #33475B;
   border-bottom: 3px solid #33475B;
@@ -212,12 +216,17 @@ h4 {
   color: #33475B;
 }
 .hub > div {
-  width: 29%;
+  width: 30%;
   background-color: #fff;
   padding: 2% 5%;
 }
+.hub > div:nth-child(2) {
+  margin: 0 5%;
+}
+.float {
+  float: left;
+}
 .marketing,.sales,.service {
-  display: inline-block;
   margin-bottom: 4%;
 }
 .center {
@@ -241,13 +250,10 @@ h4 {
   margin: 40px 0px 30px;
 }
 .hub ul {
-  padding: 20px;
+  padding: 20px 0px;
 }
 .hub .second {
   height: 140px;
-}
-.sales {
-  margin: 0 5%;
 }
 /* /colonne hub */
 
@@ -321,7 +327,5 @@ h4 {
   height: 250px;
   background-color: green;
 }
-.float {
-  float: left;
-}
+
 /* /gradiente */
