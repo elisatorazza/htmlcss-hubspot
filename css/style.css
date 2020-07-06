@@ -121,7 +121,7 @@ padding-left: 0px;
 /* /riga azzurra */
 /* prima sezione */
 .first-section {
-  background-color: ##F5F8FA;
+  background-color: #F5F8FA;
   height: 1200px;
 }
 /* claim */
@@ -131,7 +131,7 @@ padding-left: 0px;
   margin:auto;
 }
 .claim .img-claim {
-  height: 150px;
+  height: 170px;
   margin: 30px;
 }
 .power {
@@ -139,3 +139,55 @@ padding-left: 0px;
   margin-bottom: 20px;
 }
 /* /claim */
+/* learn */
+.float {
+  float: left;
+}
+.crm {
+  padding: 50px;
+  position: relative;
+  height: 300px;
+  background-color: #fff;
+  margin: 40px auto;
+}
+.crm .learn img {
+  width: 120px;
+  margin-bottom: 10px;
+}
+.learn {
+  width: 25%;
+  text-align: center;
+  padding-right: 10px;
+}
+.learn .btn.free {
+  padding: 20px;
+  width: 120px;
+}
+.popolar {
+  float: right;
+  width: 60%;
+  margin-right: 15%;
+}
+.title {
+  font-size: 24px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+.popolar h4 {
+  text-transform: uppercase;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.popolar hr {
+  width: 70%;
+  position: relative;
+  bottom: 31px;
+  left: 300px;
+  color: #33475B;
+}
+.top i {
+  color: #FF7A59;
+}
+.shadow {
+  box-shadow: 0.5px 0.5px 3px 3px lightgrey;
+}
