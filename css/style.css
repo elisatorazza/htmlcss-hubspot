@@ -5,17 +5,17 @@
   }
 
 .clearfix::after {
-    content:"";
-    display: table;
-    clear: both;
+  content:"";
+  display: table;
+  clear: both;
   }
 body {
-    font-family: 'Lato', sans-serif;
-    font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
   }
 .container {
-    width: 80%;
-    margin: auto;
+  width: 80%;
+  margin: auto;
   }
 p {
     line-height: 30px;
@@ -194,7 +194,6 @@ h4 {
   margin-bottom: 20px;
 }
 .top i:first-child {
-  color: #FF7A59;
   padding-left: 0px;
 }
 .top li:first-child {
@@ -205,7 +204,7 @@ h4 {
 }
 /* /popolar */
 
-/* marketing hub */
+/* hub */
 .hub {
   color: #33475B;
 }
@@ -216,9 +215,7 @@ h4 {
 }
 .marketing,.sales,.service {
   display: inline-block;
-}
-.sales {
-  margin: 0 5%;
+  margin-bottom: 4%;
 }
 .center {
   text-align: center;
@@ -246,8 +243,82 @@ h4 {
 .hub .second {
   height: 140px;
 }
-/* /marketing */
+.sales {
+  margin: 0 5%;
+}
+/* /colonne hub */
 
-/* sales */
-
-/* /sales */
+/* gradiente */
+.gradiente {
+  background: linear-gradient(45deg,#00a4bd,#00bda5);
+  height:600px;
+  width: 100%;
+  color: #fff;
+}
+.community {
+  text-align: center;
+  padding: 40px;
+}
+.community h2 {
+  font-size: 45px;
+  font-weight: 900;
+  padding-bottom: 20px;
+}
+.community p {
+  font-size: 20px;
+}
+.data {
+  height: 500px;
+  background-color: blue;
+}
+.border-right {
+  border-right: 1px solid white;
+}
+.border-bottom {
+  border-bottom: 1px solid white;
+  }
+}
+.user {
+  width: 25%;
+  height: 250px;
+  background-color: green;
+}
+.visit {
+  width: 25%;
+  height: 250px;
+  background-color: green;
+}
+.academy {
+  width: 25%;
+  height: 250px;
+  background-color: green;
+}
+.attendees {
+  width: 25%;
+  height: 250px;
+  background-color: green;
+}
+.marketplace {
+  width: 25%;
+  height: 250px;
+  background-color: green;
+}
+.six {
+  width: 25%;
+  height: 250px;
+  background-color: green;
+}
+.follower {
+  width: 25%;
+  height: 250px;
+  background-color: green;
+}
+.customers {
+  width: 25%;
+  height: 250px;
+  background-color: green;
+}
+.float {
+  float: left;
+}
+/* /gradiente */
