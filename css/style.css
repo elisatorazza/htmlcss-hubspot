@@ -4,20 +4,20 @@
   box-sizing: border-box;
   }
 
-  .clearfix::after {
+.clearfix::after {
     content:"";
     display: table;
     clear: both;
   }
-  body {
+body {
     font-family: 'Lato', sans-serif;
     font-size: 16px;
   }
-  .container {
+.container {
     width: 80%;
     margin: auto;
   }
-  p {
+p {
     line-height: 30px;
   }
 /* /impostazioni generali */
@@ -122,7 +122,6 @@ padding-left: 0px;
 /* prima sezione */
 .first-section {
   background-color: #F5F8FA;
-  height: 1200px;
 }
 /* claim */
 .claim {
@@ -150,7 +149,7 @@ padding-left: 0px;
   background-color: #fff;
   margin: 40px auto;
 }
-.crm .learn img {
+.img-first-section {
   width: 120px;
   margin-bottom: 10px;
 }
@@ -161,8 +160,9 @@ padding-left: 0px;
 }
 .learn .btn.free {
   padding: 20px;
-  width: 120px;
 }
+/* /learn */
+/* popolar */
 .popolar {
   float: right;
   width: 60%;
@@ -173,17 +173,25 @@ padding-left: 0px;
   font-weight: 900;
   margin-bottom: 20px;
 }
-.popolar h4 {
+h4 {
   text-transform: uppercase;
+  font-weight: 900;
+}
+.popolar {
   margin-right: 20px;
   margin-bottom: 20px;
 }
 .popolar hr {
-  width: 70%;
-  position: relative;
-  bottom: 31px;
-  left: 300px;
+  width: 60%;
   color: #33475B;
+  position: absolute;
+  top: 50%;
+  left: 40%
+}
+.aside {
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .top i:first-child {
   color: #FF7A59;
@@ -195,3 +203,51 @@ padding-left: 0px;
 .shadow {
   box-shadow: 0.5px 0.5px 3px 3px lightgrey;
 }
+/* /popolar */
+
+/* marketing hub */
+.hub {
+  color: #33475B;
+}
+.hub > div {
+  width: 29%;
+  background-color: #fff;
+  padding: 2% 5%;
+}
+.marketing,.sales,.service {
+  display: inline-block;
+}
+.sales {
+  margin: 0 5%;
+}
+.center {
+  text-align: center;
+}
+.vertical-list {
+  list-style: none;
+  text-align: left;
+}
+.hub h3 {
+  font-weight: 900;
+  font-size: 20px;
+}
+.fa-check-circle {
+  color: #FF7A59;
+}
+.vertical-list li {
+  margin: 10px 0px;
+}
+.hub hr {
+  margin: 40px 0px 30px;
+}
+.hub ul {
+  padding: 20px;
+}
+.hub .second {
+  height: 140px;
+}
+/* /marketing */
+
+/* sales */
+
+/* /sales */
