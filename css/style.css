@@ -27,6 +27,9 @@ i {
 #earth {
 padding-left: 0px;
 }
+header {
+  position:relative;
+}
 
 /* prima-seconda riga */
 .border {
@@ -87,7 +90,7 @@ padding-left: 0px;
   height: 575px;
   background-image: url(../img/jumbotron.png);
   background-repeat: no-repeat;
-  background-position: right top;
+  background-position: right bottom;
   background-size: cover;
 }
 .banner {
