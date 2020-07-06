@@ -294,17 +294,13 @@ h4 {
   text-align: center;
 }
 .contained {
-  padding: 3% 0;
+  padding: 8% 0;
 }
 .contained h2 {
   font-size: 50px;
   font-weight: 900;
   margin: 20px 0px;
   padding-right: 5px;
-}
-.groups img {
-  display: block;
-  margin:auto;
 }
 .align {
   position: relative;
@@ -319,34 +315,5 @@ p.plus {
   transform: translateY(-50%);
 }
 
-/* /groups */
-
-/* visit */
-
-/* /visit */
-/* academy */
-
-/* /academy */
-
-.marketplace {
-  width: 25%;
-  height: 250px;
-  background-color: green;
-}
-.idiom {
-  width: 25%;
-  height: 250px;
-  background-color: green;
-}
-.follower {
-  width: 25%;
-  height: 250px;
-  background-color: green;
-}
-.customers {
-  width: 25%;
-  height: 250px;
-  background-color: green;
-}
 /* /data */
 /* /gradiente */
