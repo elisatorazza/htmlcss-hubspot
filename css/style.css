@@ -278,26 +278,55 @@ h4 {
 /* /community */
 
 /* data */
-.data li {
-  list-style: none;
+.data > div {
   color: white;
   border-right: 1px solid white;
+  width: 25%;
 }
-.data li:nth-child(-n+4) {
+.data>div:nth-child(-n+4) {
   border-bottom: 1px solid white;
 }
-.data li:nth-child(4n+4) {
+.data>div:nth-child(4n+4) {
   border-right: none;
 }
-.border-bottom {
-  border-bottom: 1px solid white;
-  }
-
+/* groups */
 .groups {
+  position: relative;
   width: 25%;
   height: 250px;
   background-color: green;
+  text-align: center;
 }
+.contained {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.contained h2 {
+  font-size: 50px;
+  font-weight: 900;
+  margin: 20px 0px;
+  padding-right: 5px;
+}
+.groups img {
+  display: block;
+  margin:auto;
+  width: 35%;
+}
+.plus {
+  display: inline-block;
+}
+p.plus {
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.align {
+  position: relative;
+}
+/* /groups */
 .visit {
   width: 25%;
   height: 250px;
