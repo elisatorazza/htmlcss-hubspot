@@ -12,6 +12,7 @@
 body {
   font-family: 'Lato', sans-serif;
   font-size: 18px;
+  color: #33475B;
   }
 .container {
   width: 80%;
@@ -127,7 +128,7 @@ header {
 }
 /* /riga azzurra */
 /* prima sezione */
-.first-section {
+main {
   background-color: #F5F8FA;
 }
 /* claim */
@@ -210,7 +211,6 @@ h4 {
   box-shadow: 0.5px 0.5px 3px 3px lightgrey;
 }
 /* /popolar */
-
 /* hub */
 .hub {
   color: #33475B;
@@ -256,14 +256,13 @@ h4 {
   height: 140px;
 }
 /* /colonne hub */
-
 /* gradiente */
+/* paragrafo con gradiente */
 .gradiente {
   background: linear-gradient(45deg,#00a4bd,#00bda5);
   width: 100%;
   color: #fff;
 }
-/* community */
 .community {
   text-align: center;
   padding: 40px;
@@ -276,8 +275,7 @@ h4 {
 .community p {
   font-size: 20px;
 }
-/* /community */
-
+/* /paragrafo con gradiente */
 /* data riquadri*/
 .data {
   padding-bottom: 80px;
@@ -353,18 +351,15 @@ p.plus {
   vertical-align: middle;
 }
 .padding {
-  padding-top: 8px;
+  padding-top: 12px;
 }
 #wistia {
-  padding-top: 12px;
+  padding-top: 15px;
 }
 /* /business */
 /* growing */
 .growing {
-  height: 500px;
-}
-.growing .width {
-  width: 50%;
+  margin-bottom: 50px;
 }
 .start {
   float: left;
@@ -372,7 +367,6 @@ p.plus {
 }
 .woman {
   text-align: right;
-  width: 50%;
   float: right;
 }
 .woman img{
