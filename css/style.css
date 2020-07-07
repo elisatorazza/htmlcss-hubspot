@@ -277,7 +277,10 @@ h4 {
 }
 /* /community */
 
-/* data */
+/* data riquadri*/
+.data {
+  padding-bottom: 80px;
+}
 .data > div {
   color: white;
   border-right: 1px solid white;
@@ -289,7 +292,6 @@ h4 {
 .data>div:nth-child(4n+4) {
   border-right: none;
 }
-/* groups */
 .text {
   text-align: center;
 }
@@ -314,6 +316,45 @@ p.plus {
   top: 50%;
   transform: translateY(-50%);
 }
-
-/* /data */
+/* /data riquadri*/
 /* /gradiente */
+
+/* business */
+.country {
+  width: 70%;
+  margin: auto;
+}
+.business-numbers {
+  width: 20%;
+  padding: 40px;
+  margin-right: 20%;
+}
+.business-numbers h2 {
+  font-size: 40px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+.business-logo {
+  width: 60%;
+}
+.business-logo ul {
+  padding: 40px;
+}
+.business-logo li {
+  list-style: none;
+  float: left;
+  width: 25%;
+  margin-bottom: 1%;
+}
+.business-logo li img {
+  width: 80%;
+  padding: 5px;
+  vertical-align: middle;
+}
+.padding {
+  padding-top: 8px;
+}
+#wistia {
+  padding-top: 12px;
+}
+/* /business */
