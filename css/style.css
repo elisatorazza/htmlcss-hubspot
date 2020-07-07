@@ -11,7 +11,7 @@
   }
 body {
   font-family: 'Lato', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   }
 .container {
   width: 80%;
@@ -377,4 +377,50 @@ p.plus {
 }
 .woman img{
   width: 50%;
+}
+/* /growing */
+footer {
+  background-color: #33475B;
+  height: 500px;
+}
+footer .menu {
+  height: 400px;
+  background-color: red;
+}
+.traffic {
+  height: 350px;
+  background-color: blue;
+}
+.connect {
+  height: 350px;
+  background-color: green;
+}
+.close {
+  height: 350px;
+  background-color: orange;
+
+}
+.tools {
+  height: 350px;
+  background-color: yellow;
+}
+.menu > div {
+  float: left;
+  width: 25%;
+  margin-top: 40px;
+}
+footer .menu ul {
+}
+footer .menu li {
+  list-style: none;
+  padding-bottom: 20px;
+}
+footer .menu li:first-child {
+  padding-bottom: 25px;
+  font-weight: 900;
+}
+footer .menu li a {
+  text-decoration: none;
+  color: #FFF;
+
 }
