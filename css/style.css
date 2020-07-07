@@ -391,8 +391,6 @@ footer .menu {
   width: 25%;
   margin-top: 40px;
 }
-footer .choose-language ul {
-}
 footer li {
   list-style: none;
   padding-bottom: 20px;
@@ -401,12 +399,30 @@ footer li {
 footer .menu li:first-child {
   padding-bottom: 25px;
   font-weight: 900;
+  color: #fff;
 }
 footer li a {
   text-decoration: none;
-  color: #FFF;
+  color: #cbd6e2;
 }
-.choose-language li {
+footer .btn {
+  color:#33475B;
+  background-color: #cbd6e2;
+}
+/* /menu verticali footer */
+/* seconda sezione footer */
+.second-section-footer li {
   display: inline-block;
   padding: 20px 10px;
 }
+.choose-language {
+  border-bottom: 1px solid #cbd6e2;
+}
+.final-section {
+  color: #cbd6e2;
+  padding: 50px 0px;
+}
+.privacy {
+  float: right;
+}
+/* /seconda sezione footer */
