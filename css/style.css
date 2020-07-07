@@ -84,7 +84,7 @@ header {
 }
 /* /prima-seconda riga */
 /* banner */
-.third-raw {
+.third-raw.background {
   background-color: #FFF2EE;
   height: 575px;
   background-image: url(../img/jumbotron.png);
@@ -95,12 +95,13 @@ header {
 .banner {
   color: #33475B;
 }
-.width {
+.third-raw.background .width {
   width: 35%;
 }
 .third-raw h1 {
   line-height: 35px;
   padding-top: 50px;
+  font-size: 35px;
   font-weight: 900;
 }
 .third-raw p {
@@ -358,3 +359,22 @@ p.plus {
   padding-top: 12px;
 }
 /* /business */
+/* growing */
+.growing {
+  height: 500px;
+}
+.growing .width {
+  width: 50%;
+}
+.start {
+  float: left;
+  width: 50%;
+}
+.woman {
+  text-align: right;
+  width: 50%;
+  float: right;
+}
+.woman img{
+  width: 50%;
+}
