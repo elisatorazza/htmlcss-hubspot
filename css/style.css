@@ -25,7 +25,7 @@ i {
   padding: 0px 10px;
   }
 #earth {
-padding-left: 0px;
+  padding-left: 0px;
 }
 header {
   position:relative;
@@ -379,48 +379,34 @@ p.plus {
   width: 50%;
 }
 /* /growing */
+/* menu verticali footer*/
 footer {
   background-color: #33475B;
-  height: 500px;
 }
 footer .menu {
-  height: 400px;
-  background-color: red;
-}
-.traffic {
-  height: 350px;
-  background-color: blue;
-}
-.connect {
-  height: 350px;
-  background-color: green;
-}
-.close {
-  height: 350px;
-  background-color: orange;
-
-}
-.tools {
-  height: 350px;
-  background-color: yellow;
+  margin-bottom: 50px;
 }
 .menu > div {
   float: left;
   width: 25%;
   margin-top: 40px;
 }
-footer .menu ul {
+footer .choose-language ul {
 }
-footer .menu li {
+footer li {
   list-style: none;
   padding-bottom: 20px;
+  text-transform: capitalize;
 }
 footer .menu li:first-child {
   padding-bottom: 25px;
   font-weight: 900;
 }
-footer .menu li a {
+footer li a {
   text-decoration: none;
   color: #FFF;
-
+}
+.choose-language li {
+  display: inline-block;
+  padding: 20px 10px;
 }
