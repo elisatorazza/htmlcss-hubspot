@@ -29,17 +29,24 @@ i {
   padding-left: 0px;
 }
 header {
-  position:relative;
+  position: relative;
 }
 /* header */
 /* prima-seconda riga */
 .border {
   background-color: #F4F9FD;
   border-bottom:1px solid #33475B;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
 }
 .raw {
   height: 100px;
   position: relative;
+}
+header > div.raw.container.clearfix {
+  margin-top:100px;
 }
 .language {
   float: left;
@@ -72,17 +79,26 @@ header {
   font-size: 18px;
   border-radius: 10px;
   padding: 10px;
+  text-decoration: none;
+  display: inline-block;
 }
 .btn.log {
   background-color: #fff;
   color: #FF7A59;
   border:1px solid #FF7A59;
 }
+.btn.log:hover {
+  background-color: #FFF2EE;
+}
 .btn.free {
   background-color: #FF7A59;
   color: #fff;
   border: none;
 }
+.btn.free:hover {
+  background-color: #FFBCAC;
+}
+
 /* /prima-seconda riga */
 /* banner */
 .third-raw.background {
@@ -241,7 +257,7 @@ h4 {
 .hub .second {
   height: 140px;
 }
-.hub button {
+.hub .btn.free {
   padding: 25px;
 }
 /* /colonne hub */
@@ -382,7 +398,10 @@ footer li a {
 }
 footer .btn {
   color:#33475B;
-  background-color: #cbd6e2;
+  background-color: #fff;
+}
+footer .btn:hover {
+  background-color: #EAF0F6;
 }
 /* /menu verticali footer */
 /* seconda sezione footer */
@@ -399,5 +418,25 @@ footer .btn {
 }
 .privacy {
   float: right;
+}
+footer .container {
+  position: relative;
+}
+.widget {
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  height: 96px;
+  width: 100px;
+  border-radius: 100%;
+  background-color: #425B76;
+}
+.fa-comment {
+  font-size: 45px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
 }
 /* /seconda sezione footer */
