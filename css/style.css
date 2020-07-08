@@ -54,6 +54,21 @@ header > div.raw.container.clearfix {
   top: 50%;
   transform: translateY(-50%);
 }
+.menu-idiom {
+  display:none;
+  position: relative;
+}
+.menu-idiom .block {
+  display: block;
+  height: 50px;
+  width: 120px;
+  background-color: #fff;
+  padding: 10px;
+}
+.top.left li:first-child:hover .menu-idiom{
+  display:block;
+  position:absolute;
+}
 .login {
   float: right;
   position: absolute;
@@ -222,9 +237,7 @@ h4 {
 .top li:first-child {
   padding-left: 0px;
 }
-.shadow {
-  box-shadow: 0.5px 0.5px 3px 3px lightgrey;
-}
+
 /* /popolar */
 /* hub */
 .hub > div {
@@ -235,6 +248,12 @@ h4 {
 }
 .hub > div:nth-child(2) {
   margin: 0 5%;
+}
+.shadow {
+  box-shadow: 0.5px 0.5px 3px 3px lightgrey;
+}
+.shadow:hover {
+  box-shadow: 1px 1px 5px 5px lightgrey;
 }
 .float {
   float: left;
@@ -395,6 +414,10 @@ footer .menu li:first-child {
 footer li a {
   text-decoration: none;
   color: #cbd6e2;
+  font-weight: bold;
+}
+footer li a:hover {
+  color: #3FA7D6;
 }
 footer .btn {
   color:#33475B;
@@ -402,6 +425,7 @@ footer .btn {
 }
 footer .btn:hover {
   background-color: #EAF0F6;
+  color: #33475B;
 }
 /* /menu verticali footer */
 /* seconda sezione footer */
